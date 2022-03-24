@@ -1,6 +1,5 @@
 {
-  "categories": 
-  [
+  "categories": [
     {
       "id": 1,
       "name": "Moradia",
@@ -25,6 +24,281 @@
       "id": 5,
       "name": "Freelas",
       "description": "Trabalhos como freelancer"
-    }    
+    },
+    {
+      "id": 6,
+      "name": "categoria teste editado",
+      "description": "categoria editado"
+    },
+    {
+      "id": 7,
+      "name": "teste 2",
+      "description": "testando"
+    },
+    {
+      "id": 8,
+      "name": "Teste 3",
+      "description": "Mais um teste editado"
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Gás de Cozinha",
+      "categoryId": 1,
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamentos de Contas da Casa"
+      },
+      "paid": true,
+      "date": "14/10/2018",
+      "amount": "70,80",
+      "type": "expense",
+      "description": "Qualquer descrição para essa despesa"
+    },
+    {
+      "id": 2,
+      "name": "Suplementos",
+      "description": null,
+      "type": "expense",
+      "amount": "150,00",
+      "date": "14/10/2018",
+      "paid": false,
+      "categoryId": 2,
+      "category": {
+        "id": 2,
+        "name": "Saúde",
+        "description": "Plano de Saúde e Remédios"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Salário na Empresa X",
+      "description": "teste salvar",
+      "type": "revenue",
+      "amount": "4405,49",
+      "date": "15/10/2018",
+      "paid": true,
+      "categoryId": 4,
+      "category": {
+        "id": 4,
+        "name": "Salário",
+        "description": "Recebimento de salário"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Aluguel de Filme",
+      "categoryId": "3",
+      "category": {
+        "id": 3,
+        "name": "Lazer",
+        "description": "Cinema, Parque, Praia"
+      },
+      "paid": true,
+      "date": "16/10/2018",
+      "amount": "15,00",
+      "type": "expense"
+    },
+    {
+      "id": 5,
+      "name": "Suplementos",
+      "categoryId": "1",
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamentos de Contas da Casa"
+      },
+      "paid": true,
+      "date": "17/10/2018",
+      "amount": "30,00",
+      "type": "expense"
+    },
+    {
+      "id": 6,
+      "name": "Video Game da Filha",
+      "categoryId": "3",
+      "category": {
+        "id": 3,
+        "name": "Lazer",
+        "description": "Cinema, Parque, Praia"
+      },
+      "paid": false,
+      "date": "17/10/2018",
+      "amount": "15,00",
+      "type": "expense"
+    },
+    {
+      "id": 12,
+      "name": "Aluguel",
+      "categoryId": "1",
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamentos de Contas da Casa"
+      },
+      "paid": false,
+      "date": "23/10/2018",
+      "amount": "15,00",
+      "type": "expense"
+    },
+    {
+      "id": 13,
+      "name": "Gás de Cozinha",
+      "categoryId": "1",
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamentos de Contas da Casa"
+      },
+      "paid": false,
+      "date": "25/10/2018",
+      "amount": "30,00",
+      "type": "expense"
+    },
+    {
+      "id": 14,
+      "name": "Pagamento Pelo Projeto XYZ",
+      "categoryId": "5",
+      "category": {
+        "id": 5,
+        "name": "Freelas",
+        "description": "Trabalhos como freelancer"
+      },
+      "paid": true,
+      "date": "25/10/2018",
+      "amount": "2980,00",
+      "type": "revenue"
+    },
+    {
+      "id": 19,
+      "name": "Aluguel de Filme",
+      "categoryId": "3",
+      "category": {
+        "id": 3,
+        "name": "Lazer",
+        "description": "Cinema, Parque, Praia"
+      },
+      "paid": false,
+      "date": "07/11/2018",
+      "amount": "15,00",
+      "type": "expense"
+    },
+    {
+      "id": 21,
+      "name": "Video Game da Filha",
+      "categoryId": "1",
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamentos de Contas da Casa"
+      },
+      "paid": true,
+      "date": "17/11/2018",
+      "amount": "30,00",
+      "type": "expense"
+    },
+    {
+      "id": 22,
+      "name": "Cinema",
+      "categoryId": "2",
+      "category": {
+        "id": 2,
+        "name": "Saúde",
+        "description": "Plano de Saúde e Remédios"
+      },
+      "paid": true,
+      "date": "18/11/2018",
+      "amount": "15,00",
+      "type": "expense"
+    },
+    {
+      "id": 23,
+      "name": "Jiu Jitsu",
+      "categoryId": "2",
+      "category": {
+        "id": 2,
+        "name": "Saúde",
+        "description": "Plano de Saúde e Remédios"
+      },
+      "paid": false,
+      "date": "21/11/2018",
+      "amount": "130,00",
+      "type": "expense"
+    },
+    {
+      "id": 44,
+      "name": "Uber",
+      "categoryId": "3",
+      "category": {
+        "id": 3,
+        "name": "Lazer",
+        "description": "Cinema, Parque, Praia"
+      },
+      "paid": true,
+      "date": "28/11/2018",
+      "amount": "15,00",
+      "type": "expense"
+    },
+    {
+      "id": 55,
+      "name": "Cinema",
+      "categoryId": "3",
+      "category": {
+        "id": 3,
+        "name": "Lazer",
+        "description": "Cinema, Parque, Praia"
+      },
+      "paid": false,
+      "date": "28/11/2018",
+      "amount": "30,00",
+      "type": "expense"
+    },
+    {
+      "id": 56,
+      "name": "teste cadastro lançamento",
+      "description": "teste lançamento",
+      "type": "expense",
+      "amount": "450,00",
+      "date": "09/03/2022",
+      "paid": true,
+      "categoryId": "1",
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamentos de Contas da Casa"
+      }
+    },
+    {
+      "id": 57,
+      "name": "teste criando com categoria",
+      "description": "Qualquer descrição para essa despesa",
+      "type": "expense",
+      "amount": "50,00",
+      "date": "24/03/2022",
+      "paid": false,
+      "categoryId": "1",
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamentos de Contas da Casa"
+      }
+    },
+    {
+      "id": 58,
+      "name": "freela",
+      "description": null,
+      "type": "revenue",
+      "amount": "4000,00",
+      "date": "23/03/2022",
+      "paid": true,
+      "categoryId": "5",
+      "category": {
+        "id": 5,
+        "name": "Freelas",
+        "description": "Trabalhos como freelancer"
+      }
+    }
   ]
 }
